@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
             t.setText("Went to end game.");
             b.setText("NEW MATCH");
         }
+        else if (b.getText().equals("NEW MATCH")) {
+            t.setText("Started new game.");
+            b.setText("TO TELEOP");
+        }
     }
 
 }
