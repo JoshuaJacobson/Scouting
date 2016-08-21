@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             t.setText("Went to end game.");
             b.setText("NEW MATCH");
         }
+
     }
 
 }
